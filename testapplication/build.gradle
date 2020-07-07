@@ -24,8 +24,6 @@ android {
     }
 }
 
-apply from: 'signing.gradle'
-
 dependencies {
     // Kotlin
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
